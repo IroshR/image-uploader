@@ -1,0 +1,18 @@
+.Items {
+  text-align: center;
+}
+.Items button {
+  margin: 5px 0;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #4d0236;
+  background-color: transparent;
+  color: #4d0236;
+  cursor: pointer;
+}
+
+.Items button:hover,
+.Items button:active {
+  color: white;
+  background-color: #4d0236;
+}

@@ -1,0 +1,42 @@
+.NewItem {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  text-align: center;
+}
+
+.NewItem label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.NewItem input,
+.NewItem textarea,
+.NewItem select {
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  outline: none;
+  font: inherit;
+  margin: auto;
+}
+
+.NewItem button {
+  margin: 5px 0;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #4d0236;
+  background-color: transparent;
+  color: #4d0236;
+  cursor: pointer;
+}
+
+.NewItem button:hover,
+.NewItem button:active {
+  color: white;
+  background-color: #4d0236;
+}
